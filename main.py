@@ -1,6 +1,6 @@
 #Dont change these codes
 print("Welcome to the DSC Love Calculaor")
-name1 = input("What is your naame? \n")
+name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
 
 #Your code goes below
@@ -24,7 +24,7 @@ score += name_chk                 #add to final score
 
 
 #SCORE OUTPUT (please verify)
-if score < 10: #1-9
+if score < 10: #0-9
     print("You go together like coke and mint.")
 elif score > 90: #91-100
     print("You go together like coke and mint.")
