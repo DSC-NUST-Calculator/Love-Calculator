@@ -13,9 +13,9 @@ Sagittarius 11/22 - 12/21
 Capricorn 12/22 - 01/19
 
 Love
-Aries - Aquarius
+Aquarius - Aries
+Aquarius - Gemini
 Taurus - Cancer
-Gemini - Aquarius
 Cancer - Pisces
 Leo - Sagittarius
 Virgo - Taurus
@@ -23,20 +23,20 @@ Libra - Gemini
 Scorpio - Cancer
 Sagittarius - Aries
 Capricorn - Taurus
-Aquarius - Gemini
+
 Pisces - Scorpio
 
 
 Bad love:
+Aquarius - Scorpio
+Cancer - Aquarius
 Aries - Pisces or Cancer
 Taurus - Leo
 Gemini -Scorpio
-Cancer - Aquarius
 Leo - Capricorn
 Virgo - Sagittarius
 Libra - Virgo
 Scorpio - Taurus or Libra
 Sagittarius - Capricorn
 Capricorn - Gemini
-Aquarius - Scorpio
 Pisces - Gemini or Libra
