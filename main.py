@@ -96,7 +96,6 @@ if (zodiac_rqst == 'y'):
         score -= score*0.8
     elif (zodiac_score == 'error'):
         print("ERROR in zodiac_scoring")
-        break
 
 #SCORE OUTPUT (please verify)
 if score < 10: #0-9
