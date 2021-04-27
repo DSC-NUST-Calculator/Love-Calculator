@@ -1,3 +1,5 @@
+https://psiloveyou.xyz/same-zodiac-sign-couples-can-your-relationship-succeed-1c7ea8162693
+
 
 Aquarius 01/20 - 02/18
 Pisces 02/19 - 03/20
@@ -23,7 +25,6 @@ Libra - Gemini
 Scorpio - Cancer
 Sagittarius - Aries
 Capricorn - Taurus
-
 Pisces - Scorpio
 
 

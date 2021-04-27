@@ -12,10 +12,15 @@ name_chk += name_str.count("t")   #count in comined name string for "t"
 name_chk += name_str.count("r")   #count in comined name string for "r"
 name_chk += name_str.count("u")   #count in comined name string for "u"
 name_chk += name_str.count("e")   #count in comined name string for "e"
-score = name_chk                 #add to final score
+score = name_chk*1.1              #add to final score
 
-#ZODIC
+print(f"Score now: {score}") #debug display
+
+
+#ZODIC (only affect end percentage not points)
 import find_my_zodiac
+import zodiac_scoring
+
 zodiac_rqst = input("Do you want to also find your match in the stars?(Y or N): ") or 'n'
 
 if (zodiac_rqst == 'y'):
@@ -47,25 +52,62 @@ if (zodiac_rqst == 'y'):
     zodiac_sign1 = find_my_zodiac.zodiac_chk(date_month1, date_day1) #find zodiac for date 1
     zodiac_sign2 = find_my_zodiac.zodiac_chk(date_month2, date_day2)#find zodiac for date 2
 
-    print(zodiac_sign1)
-    print(zodiac_sign2)
+    zodiac_score = zodiac_scoring.match_zodiacs(zodiac_sign1, zodiac_sign2)#match the zodiacs
+
+    print(zodiac_sign1) #debug display
+    print(zodiac_sign2) #debug display
+    print(zodiac_score) #debug display
 
 #EYE COLOR
 
+
+
+
+
+
 #HAIR COLOR
+
+
+
+
+
 
 #AGE DIFFERENCE
 
 
 
+
+
+
+
+#Zodiac Dominate SCORE
+if (zodiac_rqst == 'y'):
+    if (zodiac_score == 'Y'):
+        score += score*1.5
+    elif (zodiac_score == 'YY'):
+        score += score*1.8
+    elif (zodiac_score == 'YM'):
+        score += score*1.2
+    elif (zodiac_score == 'N'):
+        score -= score*0.5
+    elif (zodiac_score == 'NN'):
+        score -= score*0.2
+    elif (zodiac_score == 'NM'):
+        score -= score*0.8
+    elif (zodiac_score == 'error'):
+        print("ERROR in zodiac_scoring")
+        break
+
 #SCORE OUTPUT (please verify)
 if score < 10: #0-9
-    print("You go together like coke and mint.1")
+    print("You go together like coke and mint.")
 elif score > 90: #91-100
-    print("You go together like coke and mint.2")
+    print("You go together like coke and mint..")
 elif score >= 40: #40-90
-    print("You are alright together.1")
+    print("You are alright together.")
 elif score <= 50: #10-49
-    print("You are alright together.2")
+    print("You are alright together..")
 else:
     print(f"The score: {score}")
+
+print(f"The score end: {score}") #debug display
