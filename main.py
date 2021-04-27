@@ -4,7 +4,7 @@ name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
 
 #Your code goes below
-#NAME TRUE TEST
+#NAME TRUE TEST worth: 20%
 name_chk = 0
 name_str = name1+name2            #combine both names
 name_str = name_str.lower()       #make comined name string into lower case.
@@ -12,7 +12,7 @@ name_chk += name_str.count("t")   #count in comined name string for "t"
 name_chk += name_str.count("r")   #count in comined name string for "r"
 name_chk += name_str.count("u")   #count in comined name string for "u"
 name_chk += name_str.count("e")   #count in comined name string for "e"
-score = name_chk*1.1              #add to final score
+score = name_chk*1.2              #add to final score
 
 print(f"Score now: {score}") #debug display
 
