@@ -4,4 +4,4 @@
 
 Take note score variable is our end resultbeing a percentage of 1 - 100
 
-NAME TRUE TEST is worth 20 perfect
+NAME TRUE TEST is worth 20 percent
