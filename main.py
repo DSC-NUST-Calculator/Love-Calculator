@@ -39,9 +39,9 @@ if (zodiac_rqst == 'y'):
     date_day2 = 0
     while 1 > date_day2 or 31 < date_day2: #check if day is between 1 - 31
         try:
-            date_day2 = int(input("Day of your birth: "))
+            date_day2 = int(input("Day of their birth: "))
         except ValueError:
-            date_day2 = int(input("Day of your birth: 1 to 31"))
+            date_day2 = int(input("Day of their birth: 1 to 31"))
     date_month2 = 0
     while 1 > date_month2 or 12 < date_month2: #check if month is between 1 - 12
         try:
