@@ -22,7 +22,7 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
         elif (zodiac_sign2 == 'Pisces' or zodiac_sign2 == 'Cancer'):
             score = 'N'
         elif (zodiac_sign2 == 'Aries'):
-            score = 'M' #first time, they will be extremely attracted && Quarrels and misunderstandings are inevitable
+            score = 'NM' #first time, they will be extremely attracted && Quarrels and misunderstandings are inevitable
 
     elif (zodiac_sign1 == 'Taurus'):
         if (zodiac_sign2 == 'Cancer' or zodiac_sign2 == 'Virgo' or zodiac_sign2 == 'Capricorn'):

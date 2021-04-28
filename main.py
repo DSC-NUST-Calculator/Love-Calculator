@@ -63,7 +63,7 @@ if (zodiac_rqst == 'y'):
 
 
 
-
+#score += eye_result
 
 #HAIR COLOR
 
