@@ -165,7 +165,7 @@ elif score > 90: #91-100
 ─────────────────██░
 ''')
 elif score >= 40: #40-90
-    print("Maybe you have a nice personality")
+    print("Maybe... you have a nice personality?")
     print('''
     ´´´´´´´´´´´´´´´´¶¶¶¶¶¶´´´´´´´´´´´´´´´´´´´´
 ´´´´´´´´´´´´´¶¶¶´´´´´´¶¶¶´´´´´´´´´´´´´´´´´
