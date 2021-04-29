@@ -5,7 +5,7 @@ loveLang = input("What is your Love Language:\nQuality Time, Words of Affirmatio
 loveLang = loveLang.lower()
 
 while loveLang not in {"quality time", "words of affirmation", "acts of service", "physical touch"}:
-    input("What is your Love Language:\nQuality Time, Words of Affirmation, "
+    loveLang = input("What is your Love Language:\nQuality Time, Words of Affirmation, "
           "Acts of Service or Physical Touch?\n")
     loveLang = loveLang.lower()
 
