@@ -78,8 +78,7 @@ loveLang = input('What is your Love Language:\n"Quality Time", "Words of Affirma
 loveLang = loveLang.lower()
 
 while loveLang not in {"quality time", "words of affirmation", "acts of service", "physical touch"}:
-    loveLang = input('What is your Love Language:\n"Quality Time", "Words of Affirmation", '    #added quotations for clearer understanding ALSO re-added variable
-                     '"Acts of Service" or "Physical Touch"?\n')                                #added quotations for clearer understanding
+    loveLang = input('What is your Love Language:\n"Quality Time", "Words of Affirmation", "Acts of Service" or "Physical Touch"?\n')                                #added quotations for clearer understanding
     loveLang = loveLang.lower()                                                                 #moved it into while loop.
 
 print("loveLang: " + loveLang) #debug display
