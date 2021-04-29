@@ -2,104 +2,104 @@
 def match_zodiacs(zodiac_sign1, zodiac_sign2):
     if (zodiac_sign1 == 'Aquarius'):
         if (zodiac_sign2 == 'Aries' or zodiac_sign2 == 'Gemini'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Cancer' or zodiac_sign2 == 'Scorpio'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Aquarius'):
-            score = 'N' #too egoistic when they’re in a romantic relationship
+            zodiac_scoring = 'N' #too egoistic when they’re in a romantic relationship
 
     elif (zodiac_sign1 == 'Pisces'):
         if (zodiac_sign2 == 'Cancer'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Aries' or zodiac_sign2 == 'Gemini' or zodiac_sign2 == 'Libra'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Pisces'):
-            score = 'YY' #most perfect couples of the zodiac
+            zodiac_scoring = 'YY' #most perfect couples of the zodiac
 
     elif (zodiac_sign1 == 'Aries'):
         if (zodiac_sign2 == 'Aquarius' or zodiac_sign2 == 'Sagittarius'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Pisces' or zodiac_sign2 == 'Cancer'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Aries'):
-            score = 'NM' #first time, they will be extremely attracted && Quarrels and misunderstandings are inevitable
+            zodiac_scoring = 'NM' #first time, they will be extremely attracted && Quarrels and misunderstandings are inevitable
 
     elif (zodiac_sign1 == 'Taurus'):
         if (zodiac_sign2 == 'Cancer' or zodiac_sign2 == 'Virgo' or zodiac_sign2 == 'Capricorn'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Leo' or zodiac_sign2 == 'Scorpio'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Taurus'):
-            score = 'YY' #stable and long-term
+            zodiac_scoring = 'YY' #stable and long-term
 
     elif (zodiac_sign1 == 'Gemini'):
         if (zodiac_sign2 == 'Aquarius' or zodiac_sign2 == 'Libra'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Scorpio' or zodiac_sign2 == 'Capricorn' or zodiac_sign2 == 'Pisces'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Gemini'):
-            score = 'YM' #Good, but unstable in the long run
+            zodiac_scoring = 'YM' #Good, but unstable in the long run
 
     elif (zodiac_sign1 == 'Cancer'):
         if (zodiac_sign2 == 'Taurus' or zodiac_sign2 == 'Pisces' or zodiac_sign2 == 'Scorpio'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Aquarius' or zodiac_sign2 == 'Aries'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Cancer'):
-            score = 'YY'
+            zodiac_scoring = 'YY'
 
     elif (zodiac_sign1 == 'Leo'):
         if (zodiac_sign2 == 'Sagittarius'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Taurus' or zodiac_sign2 == 'Capricorn'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Leo'):
-            score = 'M'
+            zodiac_scoring = 'M'
 
     elif (zodiac_sign1 == 'Virgo'):
         if (zodiac_sign2 == 'Taurus'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Libra' or zodiac_sign2 == 'Sagittarius'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Virgo'):
-            score = 'YY'
+            zodiac_scoring = 'YY'
 
     elif (zodiac_sign1 == 'Libra'):
         if (zodiac_sign2 == 'Gemini'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Virgo' or zodiac_sign2 == 'Scorpio' or zodiac_sign2 == 'Pisces'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Libra'):
-            score = 'M' # can be either very good or extremely bad combination, no in-between
+            zodiac_scoring = 'M' # can be either very good or extremely bad combination, no in-between
 
     elif (zodiac_sign1 == 'Scorpio'):
         if (zodiac_sign2 == 'Cancer'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Aquarius' or zodiac_sign2 == 'Gemini' or zodiac_sign2 == ' Taurus' or zodiac_sign2 == 'Libra'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Scorpio'):
-            score = 'NM' #intense relationship
+            zodiac_scoring = 'NM' #intense relationship
 
     elif (zodiac_sign1 == 'Sagittarius'):
         if (zodiac_sign2 == 'Leo'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Virgo' or zodiac_sign2 == 'Capricorn'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Sagittarius'):
-            score = 'NM' #little chance of success
+            zodiac_scoring = 'NM' #little chance of success
 
     elif (zodiac_sign1 == 'Capricorn'):
         if (zodiac_sign2 == 'Taurus'):
-            score = 'Y'
+            zodiac_scoring = 'Y'
         elif (zodiac_sign2 == 'Leo' or zodiac_sign2 == 'Sagittarius' or zodiac_sign2 == 'Gemini'):
-            score = 'N'
+            zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Capricorn'):
-            score = 'YY'
+            zodiac_scoring = 'YY'
 
     else:
-        score = 'error'
+        zodiac_scoring = 'error'
 
-    return score
+    return zodiac_scoring
 
 
     #Y      YES                 +50
