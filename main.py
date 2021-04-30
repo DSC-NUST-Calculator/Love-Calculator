@@ -1,3 +1,5 @@
+import score_reveal
+score_reveal.welcome()
 #Dont change these codes
 print("Welcome to the DSC Love Calculaor")
 name1 = input("What is your name? \n")
@@ -5,6 +7,7 @@ name2 = input("What is their name? \n")
 
 #Your code goes below
 #NAME TRUE TEST worth: 20%
+
 name_chk = 0
 name_str = name1+name2            #combine both names
 name_str = name_str.lower()       #make comined name string into lower case.
@@ -88,6 +91,8 @@ if (zodiac_rqst == 'y'):
         score += score*1.8
     elif (zodiac_score == 'YM'):
         score += score*1.2
+    elif (zodiac_score == 'Z'):
+        pass
     elif (zodiac_score == 'N'):
         score -= score*0.5
     elif (zodiac_score == 'NN'):

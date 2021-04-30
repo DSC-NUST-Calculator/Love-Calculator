@@ -7,6 +7,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Aquarius'):
             zodiac_scoring = 'N' #too egoistic when they’re in a romantic relationship
+        else:
+            zodiac_scoring = 'Z'
 
     elif (zodiac_sign1 == 'Pisces'):
         if (zodiac_sign2 == 'Cancer'):
@@ -15,6 +17,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Pisces'):
             zodiac_scoring = 'YY' #most perfect couples of the zodiac
+        else:
+            zodiac_scoring = 'Z'
 
     elif (zodiac_sign1 == 'Aries'):
         if (zodiac_sign2 == 'Aquarius' or zodiac_sign2 == 'Sagittarius'):
@@ -23,6 +27,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Aries'):
             zodiac_scoring = 'NM' #first time, they will be extremely attracted && Quarrels and misunderstandings are inevitable
+        else:
+            zodiac_scoring = 'Z'
 
     elif (zodiac_sign1 == 'Taurus'):
         if (zodiac_sign2 == 'Cancer' or zodiac_sign2 == 'Virgo' or zodiac_sign2 == 'Capricorn'):
@@ -31,6 +37,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Taurus'):
             zodiac_scoring = 'YY' #stable and long-term
+        else:
+            zodiac_scoring = 'Z'
 
     elif (zodiac_sign1 == 'Gemini'):
         if (zodiac_sign2 == 'Aquarius' or zodiac_sign2 == 'Libra'):
@@ -39,6 +47,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Gemini'):
             zodiac_scoring = 'YM' #Good, but unstable in the long run
+        else:
+            zodiac_scoring = 'Z'
 
     elif (zodiac_sign1 == 'Cancer'):
         if (zodiac_sign2 == 'Taurus' or zodiac_sign2 == 'Pisces' or zodiac_sign2 == 'Scorpio'):
@@ -47,6 +57,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Cancer'):
             zodiac_scoring = 'YY'
+        else:
+            zodiac_scoring = 'Z'
 
     elif (zodiac_sign1 == 'Leo'):
         if (zodiac_sign2 == 'Sagittarius'):
@@ -55,6 +67,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Leo'):
             zodiac_scoring = 'M'
+        else:
+            zodiac_scoring = 'Z'
 
     elif (zodiac_sign1 == 'Virgo'):
         if (zodiac_sign2 == 'Taurus'):
@@ -63,6 +77,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Virgo'):
             zodiac_scoring = 'YY'
+        else:
+            zodiac_scoring = 'Z'
 
     elif (zodiac_sign1 == 'Libra'):
         if (zodiac_sign2 == 'Gemini'):
@@ -71,6 +87,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Libra'):
             zodiac_scoring = 'M' # can be either very good or extremely bad combination, no in-between
+        else:
+            zodiac_scoring = 'Z'
 
     elif (zodiac_sign1 == 'Scorpio'):
         if (zodiac_sign2 == 'Cancer'):
@@ -79,6 +97,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Scorpio'):
             zodiac_scoring = 'NM' #intense relationship
+        else:
+            zodiac_scoring = 'Z'
 
     elif (zodiac_sign1 == 'Sagittarius'):
         if (zodiac_sign2 == 'Leo'):
@@ -87,6 +107,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Sagittarius'):
             zodiac_scoring = 'NM' #little chance of success
+        else:
+            zodiac_scoring = 'Z'
 
     elif (zodiac_sign1 == 'Capricorn'):
         if (zodiac_sign2 == 'Taurus'):
@@ -95,6 +117,8 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
             zodiac_scoring = 'N'
         elif (zodiac_sign2 == 'Capricorn'):
             zodiac_scoring = 'YY'
+        else:
+            zodiac_scoring = 'Z'
 
     else:
         zodiac_scoring = 'error'
@@ -105,6 +129,7 @@ def match_zodiacs(zodiac_sign1, zodiac_sign2):
     #Y      YES                 +50
     #YY     Mostdefinitly YES   +80
     #YM     YES maybe           +20
+    #Z      Zero                0
     #N      NO                  -50
     #NN     NEVER               -80
     #NM     NO maybe            -20
