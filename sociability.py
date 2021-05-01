@@ -28,15 +28,14 @@ if sociability == "Introvert":
             and (zodiac_scoring.zodiac_sign2 == 'Gemini' or zodiac_scoring.zodiac_sign2 == 'Libra' or zodiac_scoring.zodiac_sign2 == 'Sagittarius')): #NN
         main.score -= int(((60/200)*20)) #final score out of 20%
 
-    elif (((zodiac_scoring.zodiac_sign1 == 'Capricorn' or zodiac_scoring.zodiac_sign1 == 'Aquarius' or zodiac_scoring.zodiac_sign1 == 'Taurus')
+    elif ((zodiac_scoring.zodiac_sign1 == 'Capricorn' or zodiac_scoring.zodiac_sign1 == 'Aquarius' or zodiac_scoring.zodiac_sign1 == 'Taurus')
             and (zodiac_scoring.zodiac_sign2 == 'Leo' or zodiac_scoring.zodiac_sign2 == 'Aries' or zodiac_scoring.zodiac_sign2 == 'Scorpio')): #NM
         main.score -= int(((40/200)*20)) #final score out of 20%
 
 #For Extroverts, YY w/ AmbiVerts, NN w/ Introverts, YM w/ Omniverts and NM w/ Extroverts
 if sociability == "Extrovert":
     if ((zodiac_scoring.zodiac_sign1 == 'Gemini' or zodiac_scoring.zodiac_sign1 == 'Libra') or
-    zodiac_scoring.zodiac_sign1 == 'Sagittarius')
-            and (zodiac_scoring.zodiac_sign2 == 'Leo' or zodiac_scoring.zodiac_sign2 == 'Aries' or zodiac_scoring.zodiac_sign2 == 'Scorpio')): #YY
+    zodiac_scoring.zodiac_sign1 == 'Sagittarius') and (zodiac_scoring.zodiac_sign2 == 'Leo' or zodiac_scoring.zodiac_sign2 == 'Aries' or zodiac_scoring.zodiac_sign2 == 'Scorpio')): #YY
         main.score += int(((60/200)*20)) #final score out of 20%
 
     elif ((zodiac_scoring.zodiac_sign1 == 'Gemini' or zodiac_scoring.zodiac_sign1 == 'Libra') or
